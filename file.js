@@ -6,6 +6,7 @@ weapon: [sword, knife],
 attack: function() {
   console.log(player1.name + ' ' + 'Fight...');
 }
+};
 const player2= {
 name: 'IVAN',
 hp: 100,
@@ -26,7 +27,7 @@ function createPlayer() {
 
     const $life=document.createElement('div');
     $life.classList.add('life');
-    $life.style.width= hp + %;
+    $life.style.width= hp ++;
 
     const $name=document.createElement('div');
     $name.classList.add('name');
