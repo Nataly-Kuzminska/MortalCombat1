@@ -51,3 +51,4 @@ function createPlayer() {
  
  createPlayer('player1', player1.name, player1.hp);
  createPlayer('player2', player2.name, player2.hp);
+ 
