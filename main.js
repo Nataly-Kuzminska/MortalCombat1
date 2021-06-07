@@ -65,7 +65,7 @@ function createPlayer(playerObj) {
         $arenas.appendChild(playerWin(player.name));
       }
 
-       $playerLife.style.width= player.hp + '%';
+       $playerLife.style.width= player.hp + '%'
 
     };
 
